@@ -42,11 +42,11 @@ function print_area(Rectangle $rectangle)
 
 $rectangle = new Rectangle();
 print_area($rectangle);
-`
+```
 
 This example print number 20 on the screen, this is right for rectangle. Now suppose to create Square class.
 
-`
+```
 class Square extends Rectangle
 {
     public function setWidth($width) {
