@@ -25,7 +25,7 @@ class Rectangle
 
     public function area()
     {
-        return $this->width * $this->height
+        return $this->width * $this->height;
     }
 }
 ```
@@ -60,4 +60,13 @@ class Square extends Rectangle
     }
 }
 ```
+
+Now we are going to use the print_area function with square object
+
+```
+$square = new Square();
+print_area($squadre);
+```
+The output will be 25, this what we don't expect for a square and this result don't adheres to liskov principle
+
 
