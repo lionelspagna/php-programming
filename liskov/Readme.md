@@ -30,7 +30,7 @@ class Rectangle
 }
 ```
 
-This class receive width and height when creating the object and calculate the area if we invoke are, the result can be printed with a function
+This class receive width and height when creating the object and calculate the area if invoked, the result can be printed with a function
 
 ```
 function print_area(Rectangle $rectangle)
