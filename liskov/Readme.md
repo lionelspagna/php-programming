@@ -5,7 +5,7 @@ When u make substitution of a class with his subclass the behavior doesn't chang
 
 You have the class
 
-`
+```
 class Rectangle
 {
     public function __construct(
@@ -28,11 +28,11 @@ class Rectangle
         return $this->width * $this->height
     }
 }
-`
+```
 
 This class receive width and height when creating the object and calculate the area if we invoke are, the result can be printed with a function
 
-`
+```
 function print_area(Rectangle $rectangle)
 {
     $rectangle->setWidth(4);
@@ -59,5 +59,5 @@ class Square extends Rectangle
         $this->width = $height;
     }
 }
-`
+```
 
