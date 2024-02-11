@@ -1,5 +1,3 @@
-<?= $title = $post['title'] ?>
-
 <?php ob_start() ?>
     <h1><?= $post['title'] ?></h1>
 
@@ -7,6 +5,6 @@
     <div class="body">
         <?= $post['body'] ?>
     </div>
-<?= $content = ob_get_clean() ?>
+<?php $content = ob_get_clean() ?>
 
-<?= include('layout.php') ?>
+<?php include('layout.php') ?>
